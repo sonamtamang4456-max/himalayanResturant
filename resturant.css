@@ -1,0 +1,100 @@
+/* Remove default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Whole webpage */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+/* Navigation */
+header {
+    background: #222;
+    color: white;
+    padding: 20px;
+}
+
+
+/* Navigation layout */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Navigation links */
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Home section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: #f4f4f4;
+}
+
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+
+/* Buttons */
+button {
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+
+/* Sections */
+section {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+
+/* Menu */
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+
+.food {
+    width: 250px;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #222;
+    color: white;
+    padding: 20px;
+}
