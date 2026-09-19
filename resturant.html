@@ -1,19 +1,20 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Sonam Restaurant</title>
 
-    <link rel="stylesheet" href="style.css">
+    <!-- Correct CSS file name -->
+    <link rel="stylesheet" href="resturant.css">
 </head>
 
 <body>
 
-    <!-- Navigation bar -->
+    <!-- Navigation Bar -->
     <header>
         <nav>
             <h1>Sonam Restaurant</h1>
@@ -28,7 +29,7 @@
     </header>
 
 
-    <!-- Home section -->
+    <!-- Home Section -->
     <section id="home" class="hero">
 
         <h2>Welcome to Sonam Restaurant</h2>
@@ -42,25 +43,28 @@
     </section>
 
 
-    <!-- Menu section -->
+    <!-- Menu Section -->
     <section id="menu">
 
         <h2>Our Menu</h2>
 
         <div class="menu-container">
 
+            <!-- Momo -->
             <div class="food">
                 <h3>Momo</h3>
                 <p>Delicious chicken momo</p>
                 <strong>Rs. 150</strong>
             </div>
 
+            <!-- Chowmein -->
             <div class="food">
                 <h3>Chowmein</h3>
                 <p>Fresh Nepali-style chowmein</p>
                 <strong>Rs. 180</strong>
             </div>
 
+            <!-- Pizza -->
             <div class="food">
                 <h3>Pizza</h3>
                 <p>Hot and cheesy pizza</p>
@@ -72,25 +76,25 @@
     </section>
 
 
-    <!-- About section -->
+    <!-- About Section -->
     <section id="about">
 
         <h2>About Us</h2>
 
         <p>
-            We serve fresh and delicious food
+            We serve fresh, delicious and affordable food
             for our customers.
         </p>
 
     </section>
 
 
-    <!-- Contact section -->
+    <!-- Contact Section -->
     <section id="contact">
 
         <h2>Contact Us</h2>
 
-        <p>Phone: 98XXXXXXXX</p>
+        <p>Phone: 9765046737</p>
         <p>Location: Kathmandu, Nepal</p>
 
         <button onclick="showContact()">
@@ -100,17 +104,52 @@
     </section>
 
 
+    <!-- Footer -->
     <footer>
 
         <p>
-            © 2026 Sonam Restaurant
+            &copy; 2026 Sonam Restaurant. All rights reserved.
         </p>
 
     </footer>
 
 
-    <script src="script.js"></script>
+    <!-- Correct JavaScript file name -->
+    <script src="resturant.js"></script>
 
 </body>
 
 </html>
+```
+
+### Also make sure your `resturant.js` contains this
+
+```javascript
+function showMessage() {
+    alert("Thank you for choosing Sonam Restaurant! Your order will be taken soon.");
+}
+
+function showContact() {
+    alert("Please call us at 9765046737 to contact Sonam Restaurant.");
+}
+```
+
+The important fixes are:
+
+* `style.css` → **`resturant.css`**
+* `script.js` → **`resturant.js`**
+* Improved HTML structure and comments
+* Added proper `&copy;` for the copyright symbol
+* Kept your existing menu, phone number, sections, and buttons
+
+Your GitHub folder should remain:
+
+```text
+himalayanResturant/
+├── index.html
+├── resturant.html
+├── resturant.css
+└── resturant.js
+```
+
+After uploading the changes, refresh your GitHub Pages website with **Ctrl + F5**.
